@@ -242,7 +242,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     tutorialSeen.fourBurgerTutorial = true;
                     setTimeout(() => {
                         showTutorial(
-                            "CUANDO QUEDAN 4  HAMBURGUESAS, EL SISTEMA CAMBIA A CARRUSELES SEPARADOS, POR LO TANTO TENDRAS QUE OPRIMIR VARIAS LAS FLECHAS DE DERECHA Y IZQUIERDA PARA ACOMODAR LAS HAMBURGUESAS Y PASEN POR CADA ESTACION"
+                       "WHEN THERE ARE 4 BURGERS LEFT, THE SYSTEM SWITCHES TO SEPARATE CAROUSELS, SO YOU WILL HAVE TO PRESS THE RIGHT AND LEFT ARROWS SEVERAL TIMES TO ARRANGE THE BURGERS AND MOVE THROUGH EACH STATION"
                         );
                     }, 3000)
 
@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
                     showTutorial(
-                        "CUANDO QUEDAN 3  HAMBURGUESAS, EL SISTEMA ES IGUAL BASICAMENTE FUNCIONA EN CARRUSELES SEPARADOS"
+                       "WHEN THERE ARE 3 BURGERS LEFT, THE SYSTEM BASICALLY WORKS ON SEPARATE CAROUSELS"
                     );
 
 
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     showTutorial(
 
-                        "CUANDO SOLO QUEDA 1 HAMBURGUESA, ESTA PASARÁ POR CADA ESTACIÓN INDIVIDUALMENTE."
+                       "WHEN ONLY 1 HAMBURGER REMAINS, IT WILL GO THROUGH EACH STATION INDIVIDUALLY."
                     );
                 }
 
@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     tutorialSeen.twoBurgerTutorial = true;
 
                     showTutorial(
-                        "CUANDO SOLO QUEDAN 2 HAMBURGUESAS, LA NAVEGACIÓN ES MÁS SIMPLE, PERO ALGUNAS POSICIONES CAMBIAN DINÁMICAMENTE.",
+                       "WHEN ONLY 2 BURGERS REMAIN, NAVIGATION IS SIMPLER, BUT SOME POSITIONS CHANGE DYNAMICALLY."
                     );
                 }
 
@@ -685,7 +685,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tutorialSeen.machine = true;
 
             showTutorial(
-                "LAS HAMBURGUESAS DEBEN SALIR EN ORDEN. SI COMPLETAS LA BURGER INCORRECTA, EL JUEGO CONTARÁ COMO ERROR."
+               "THE BURGERS MUST COME OUT IN ORDER. IF YOU COMPLETE THE WRONG BURGER, THE GAME WILL COUNT AS A FAILURE."
             );
         }
 
@@ -1006,7 +1006,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tutorialSeen.validation = true;
 
             showTutorial(
-                "LAS HAMBURGUESAS CORRECTAS DAN PUNTOS Y AUMENTAN EL COMBO. LAS INCORRECTAS ROMPEN EL COMBO.",
+               "THE RIGHT BURGERS GIVE POINTS AND INCREASE THE COMBO. THE WRONG ONES BREAK THE COMBO."
             );
         }
         if (isCorrect) {
@@ -1347,7 +1347,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tutorialSeen.prevMove = true;
 
             showTutorial(
-                "USA LOS BOTONES NEXT Y PREV PARA MOVER EL CARRUSEL DE HAMBURGUESAS."
+               "USE THE NEXT AND PREV BUTTONS TO MOVE THE HAMBURGER CAROUSEL."
             );
         }
 
@@ -1400,7 +1400,8 @@ document.addEventListener('DOMContentLoaded', () => {
             tutorialSeen.nextMove = true;
 
             showTutorial(
-                "CUANDO PRESIONAS DERECHA, LAS HAMBURGUESAS SE MUEVEN HACIA LA IZQUIERDA. CUANDO PRESIONAS IZQUIERDA, LAS HAMBURGUESAS SE MUEVEN HACIA LA DERECHA."
+              "WHEN YOU PRESS RIGHT, THE HAMBURGERS MOVE TO THE LEFT. WHEN YOU PRESS LEFT, THE HAMBURGERS MOVE TO THE RIGHT."
+
             );
         }
         carouselOffset++;
@@ -1548,7 +1549,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         showTutorial(
-            "BIENVENIDO A BURGER FACTORY. TU OBJETIVO ES COMPLETAR LAS HAMBURGUESAS CORRECTAMENTE,LA CURRENT ORDER APARECE SOLO DURANTE ALGUNOS SEGUNDOS. MEMORIZA LOS INGREDIENTES ANTES DE CONTINUAR."
+           "WELCOME TO BURGER FACTORY. YOUR GOAL IS TO COMPLETE THE BURGERS CORRECTLY. THE CURRENT ORDER APPEARS FOR ONLY A FEW SECONDS. MEMORIZE THE INGREDIENTS BEFORE CONTINUING."
         );
 
 
