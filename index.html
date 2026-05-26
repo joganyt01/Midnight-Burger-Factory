@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnight Burger Factory | Assembly Line</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-wrapper">
+    <div id="game-container">
+        <!-- Background Atmosphere -->
+        <div class="factory-bg">
+            <div class="neon-sign">OPEN 24h</div>
+            <div class="pipe pipe-1"></div>
+            <div class="gear gear-1"></div>
+            <div class="window-glow"></div>
+        </div>
+
+        <!-- RESULT SCREEN -->
+        <div class="result-screen hidden-status">
+
+            <div class="screen-label">
+                STATUS
+            </div>
+            <div class="score-panel">
+
+                <div id="score-text">
+                    SCORE: 0
+                </div>
+
+                <div id="combo-text">
+                    COMBO x0
+                </div>
+
+            </div>
+
+            <div id="result-text">
+                READY
+            </div>
+            <div class="result-particles"></div>
+
+        </div>
+
+        <!-- Ingredient Dispensers (The Machines) -->
+        <div class="dispenser-line hidden-machines">
+            <div class="machine" onclick="dropIngredient('patty')" id="m-patty">
+                <div class="machine-label">PATTY</div>
+                <div class="nozzle"></div>
+            </div>
+            <div class="machine" onclick="dropIngredient('cheese')" id="m-cheese">
+                <div class="machine-label">CHEESE</div>
+                <div class="nozzle"></div>
+            </div>
+            <div class="machine" onclick="dropIngredient('lettuce')" id="m-lettuce">
+                <div class="machine-label">LETTUCE</div>
+                <div class="nozzle"></div>
+            </div>
+            <div class="machine" onclick="dropIngredient('tomato')" id="m-tomato">
+                <div class="machine-label">TOMATO</div>
+                <div class="nozzle"></div>
+            </div>
+            <div class="machine" onclick="dropIngredient('bun-top')" id="m-bun-top">
+                <div class="machine-label">TOP BUN</div>
+                <div class="nozzle"></div>
+            </div>
+        </div>
+
+        <!-- The Main Machine -->
+        <div class="factory-machine">
+            <div class="conveyor-casing">
+                <div class="roller roller-left"></div>
+                <div class="roller roller-right"></div>
+                <div class="conveyor-belt" id="belt">
+                    <!-- Burgers will be spawned here -->
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="burger-controls hidden-controls">
+
+            <button id="prev-burger">
+                ◀
+            </button>
+
+            <div class="burger-slot">
+                BURGER 1
+            </div>
+
+            <button id="next-burger">
+                ▶
+            </button>
+
+        </div>
+
+        <!-- UI Overlay -->
+
+        <div class="ui-overlay">
+
+            <div class="title-container">
+
+                <h1 class="game-logo">
+                    MIDNIGHT <br>
+                    <span>BURGER FACTORY</span>
+                </h1>
+
+                <div class="ui-decoration">
+                    ARCADE MODE v1.0
+                </div>
+
+            </div>
+
+            <!-- ORDER PANEL -->
+            <div class="order-panel hidden-order">
+
+                <div class="order-title">
+                    CURRENT ORDER
+                </div>
+
+                <div id="order-list"></div>
+
+            </div>
+
+            <div class="game-buttons hidden-game-buttons">
+
+    <button id="pause-btn" class="arcade-btn">
+        PAUSE
+    </button>
+
+    <button id="restart-btn" class="arcade-btn">
+        RESTART
+    </button>
+
+</div>
+            
+            <div class="menu-container">
+
+                <button class="btn-play">
+                    START COOKING
+                </button>
+
+
+
+            </div>
+
+        </div>
+
+
+
+        <div id="particle-container"></div>
+    </div>
+
+    <div class="tutorial-overlay hidden-tutorial">
+
+    <div class="tutorial-box">
+
+        <div id="tutorial-text">
+            TEXTO
+        </div>
+
+        <button id="tutorial-next">
+            SIGUIENTE
+        </button>
+
+    </div>
+
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
