@@ -19,7 +19,7 @@ El jugador deberá preparar las hamburguesas correctamente, elegir los ingredien
     <td align="center"><b>Preparación de pedidos</b></td>
   </tr>
   <tr>
-    <td><img src="Presentacion.PNG" alt="Gameplay" width="400"></td>
+    <td><img src="presentacion.PNG" alt="Gameplay" width="400"></td>
     <td><img src="modelo.PNG" alt="Pedidos" width="400"></td>
   </tr>
 </table>
